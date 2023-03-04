@@ -1,6 +1,7 @@
-
-@import url(//db.onlinewebfonts.com/c/cd0161509171ec0b9558c548d8e9c26d?family=Bank+Gothic);
-
+@font-face {
+  font-family: 'Bank Gothic Medium';
+  src: url('path/to/Bank Gothic Medium.otf') format('opentype');
+}
 
 
 .body {
@@ -399,7 +400,7 @@ body {
   text-align: center;
   position: relative;
   top: 40px;
-  font-family: "Bank Gothic", 'Michroma', sans-serif;
+  font-family: "Bank Gothic Medium", 'Michroma', sans-serif;
   width: 270px;
   font-size: 30px;
   
